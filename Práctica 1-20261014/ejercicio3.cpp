@@ -30,3 +30,20 @@ int main (){
 	
 	return 0;
 }
+
+/*
+ * PSEUDOCODIGO
+ *
+ * ALGORITMO ConversorEurosADolares
+ * // Convierte una cantidad en euros a dolares usando un cambio fijo
+ * CONSTANTES
+ *     CAMBIO_EUR_USD = 1.14
+ * VARIABLES
+ *     euros, dolares : REAL
+ * INICIO
+ *     ESCRIBIR "Indica la cantidad en euros: "
+ *     LEER euros
+ *     dolares <- euros * CAMBIO_EUR_USD
+ *     ESCRIBIR euros, " euros equivalen a ", dolares, " dolares."
+ * FIN
+ */
